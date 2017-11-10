@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Put comments here that give an overall description of what your
 ## functions do
 
@@ -18,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
     get<- function () x
 
     ##inverse x
-    setinverse<- function(setinverse) I <<-inverse
+    setinverse<- function(inverse) I <<-inverse
 
     ##set inverse x
     getinverse<- function () I
@@ -64,4 +63,4 @@ makeCacheMatrix <- function(x = matrix()) {
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 }
->>>>>>> 65fcfb0ac94ef312f36c396d64f1c2d8c4c87177
+
